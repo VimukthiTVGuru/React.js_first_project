@@ -1,11 +1,8 @@
-//import logo from './logo.svg';
-import './App.css';
-import PartOne from './components/PartOne';
+import Home from './Pages/Home';
 function App() {
   return (
     <div className="App">
-      <h1>this is my first react project</h1>
-      <PartOne/>
+      <Home/>
     </div>
   );
 }
