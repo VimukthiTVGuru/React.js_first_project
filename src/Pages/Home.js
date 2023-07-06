@@ -1,14 +1,11 @@
 import React from 'react'
-import TopicBox from '../components/TopicBox'
+import { Link } from 'react-router-dom'
 export default function Home() {
   return (
     <div>
-      <h1>This is the home page</h1>
-      <TopicBox topics="01" for="begines">
-        <span><a href='www.ikman.lk'>click here...</a></span>
-      </TopicBox>
-      <TopicBox topics="02" for="trainers"/>
-      <TopicBox topics="03" for="experts"/>
+      <h1>Home page</h1>
+      <Link to="/About">go to the about page</Link>
+      <Link to="/Contact">go to the contact page</Link>
     </div>
   )
 }
